@@ -7,6 +7,6 @@
 <title>Home Page</title>
 </head>
 <body>
-This is just for nothing
+This is just for nothing <a href="rest">Click Here</a>
 </body>
 </html>
