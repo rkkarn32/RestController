@@ -60,5 +60,10 @@
 			<version>4.7-201002241900</version>
 			<type>nbm</type>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>4.1.4.RELEASE</version>
+		</dependency>
 	</dependencies>
 </project>

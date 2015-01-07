@@ -17,4 +17,12 @@ public class RestControllers {
 		list.add(new Person("Deepesh",29));
 		return list;
 	}
+	
+	@RequestMapping(value="/restxml",method=RequestMethod.GET,produces="application/xml")
+	public List<Person> getPersonXml(){
+		List<Person> list = new ArrayList<Person>();
+		list.add(new Person("Ramesh", 27));
+		list.add(new Person("Deepesh",29));
+		return list;
+	}
 }

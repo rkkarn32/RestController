@@ -13,6 +13,6 @@ public class RestTest {
 	public void test(){
 		RestTemplate restTemplate=new RestTemplate();
 		//Person model=restTemplate.getForObject("http://localhost:8080/SringMVCSetup/testrest", PersonModel.class);
-		List<Person> model=restTemplate.getForObject("http://localhost:8080/RestExample/rest", List.class);
+		List<Person> model=restTemplate.getForObject("http://localhost:8080/RestExample/restxml", List.class);
 	}
 }

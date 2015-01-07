@@ -8,5 +8,12 @@
 </head>
 <body>
 This is just for nothing <a href="rest">Click Here</a>
+<br>
+Test the RequestBody
+<form action="request?nam=lala" method="post">
+<input type="text" name="nam" />
+<input type="text" name="var2" />  
+<input type="submit"  />
+</form> 
 </body>
 </html>
